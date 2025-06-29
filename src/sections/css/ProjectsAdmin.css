@@ -1,0 +1,65 @@
+.projects-admin {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+    --btn-color: #fff;
+    --btn-text-color: #222;
+    --project-card-bg: #fff;
+    --text-color: #222;
+    --form-text-color: #222;
+}
+
+.projects-admin h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.status-msg {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.add-project-form input {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.7rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.add-project-form button {
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background: #2c3e50;
+  color: white; 
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.project-list {
+  margin-top: 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+.project-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.project-list button {
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

@@ -1,0 +1,53 @@
+.articles-admin {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+    --btn-color: #fff;
+    --btn-text-color: #222;
+    --project-card-bg: #fff;
+    --text-color: #222;
+    --form-text-color: #222;
+}
+
+.articles-admin h1 {
+  text-align: center;
+}
+
+.add-article-form input,
+.add-article-form textarea {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.7rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.add-article-form textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.add-article-form button {
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.article-list {
+  margin-top: 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+.article-list li {
+  padding: 0.8rem;
+  border-bottom: 1px solid #ddd;
+}

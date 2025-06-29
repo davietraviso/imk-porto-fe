@@ -1,0 +1,65 @@
+.articles-container {
+  max-width: 1200px; /* aktifkan kembali */
+  margin: 0 auto;
+  padding: 2rem 1rem; /* tambahkan padding */
+}
+
+.articles-title {
+  text-align: center;
+  font-size: 52px; /* sedikit lebih besar */
+  margin-bottom: 2.5rem;
+  color: #fff;
+}
+
+.articles-grid {
+  display: grid;
+  gap: 2.5rem;
+  justify-content: center; /* pastikan grid di tengah */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* perbesar column min size */
+}
+
+.article-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  color: inherit;
+  max-width: 100%;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.18);
+}
+
+.article-card img {
+  width: 100%;
+  height: 200px; /* lebih tinggi */
+  object-fit: cover;
+}
+
+.article-content {
+  padding: 1.25rem;
+}
+
+.article-content h3 {
+  font-size: 1.4rem; /* lebih besar */
+  margin: 0.6rem 0;
+  color: #222;
+}
+
+.article-content p {
+  font-size: 1.05rem; /* sedikit lebih besar */
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.read-more {
+  color: #007bff;
+  font-weight: 600;
+  font-size: 1rem;
+}

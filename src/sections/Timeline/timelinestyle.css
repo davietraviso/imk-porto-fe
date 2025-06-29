@@ -1,0 +1,71 @@
+.timeline {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 2rem 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+  }
+  
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #ccc; /* The line connecting the dots */
+  }
+  
+  .timeline_event {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  
+  .timeline_dot {
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff; /* The dot color */
+    z-index: 1;
+  }
+  
+  .timeline_content {
+    padding-left: 40px; /* Space for the dot and line */
+    /* background-color: white; */
+    border-left: 2px solid transparent;
+  }
+  
+  .timeline_year {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .timeline_description {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .timeline_event:last-child {
+    margin-bottom: 0;
+  }
+
+  
+  @media (max-width: 576px) {
+    .timeline_content {
+      padding-left: 20px;
+    }
+  
+    .timeline_dot {
+      width: 15px;
+      height: 15px;
+    }
+  }
+  
